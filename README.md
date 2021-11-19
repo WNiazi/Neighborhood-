@@ -36,13 +36,14 @@ _Code:  const n=1
 _Expected Output: "Beep" 
 
 _Test: "It should provide all the variation with one string." 
-_Code:  
+_Code:  let variable = variable(toString (). replace (changes, replaced item)). 
+_Expected Output: With changes 
+
+_Test: "It should run the exception first prior the other changes, ie., 1/2/3 to Beep/Boop/Won't you be my neighbor. 
+_Code:  Placed for loop and if/else statement prior  
 _Expected Output: 
 
-
-_Test: "It should run through the array and pick out the exceptions, using a for loop." 
-_Code:  for (parameters) then an if and else statement 
-_Expected Output: returning various strings 
+ 
 
 ## License
 
