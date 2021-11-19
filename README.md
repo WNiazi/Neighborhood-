@@ -10,11 +10,12 @@
 * CSS 
 * HTML 
 * jQuery
+* JavaScript 
 * Bootstrap
 
 ## Description
 
-Converting numbers to various strings of words using Array methods we have learned.   
+Converting numbers to various strings of words using Array methods and Loops. 
 
 ## Setup/Installation Requirements
 
@@ -25,16 +26,23 @@ Converting numbers to various strings of words using Array methods we have learn
 * _Any known issues
 
 ## Test Questions 
-_Describe: Array.from/keys
-
+_Describe: With the use of keys and spread.
 _Test: "It should place number sequentially to the number inputted, starting from zero" 
 _Code: const n=5; 
 _Expected Output: [0, 1, 2, 3, 4, 5]
 
-_Test: "It should replace 1 with "Beep" "
+_Test: "It should replace 1 with "Beep, using Regex." 
 _Code:  const n=1 
 _Expected Output: "Beep" 
 
+_Test: "It should provide all the variation with one string." 
+_Code:  
+_Expected Output: 
+
+
+_Test: "It should run through the array and pick out the exceptions, using a for loop." 
+_Code:  for (parameters) then an if and else statement 
+_Expected Output: returning various strings 
 
 ## License
 

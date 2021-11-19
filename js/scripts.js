@@ -1,30 +1,30 @@
 //Functional Logic 
 function conversion(n){
-  const n=5
+  const n=32
   const numberArr= [ ...Array (n+1).keys()].slice (0);   
-  console.log (numberArr.toString().replace(/1/g, "Beep"));
- 
+  console.log (numberArr);
 
-  for (var i=0; answer.length ; i ++){
-    numberArr.toString().replace(/\d2/g,  && 21 "Boop")); 
-    /(^\2+1 [space])/
-    numberArr.toString().replace(/3/g, && 32 "Won't you be my neighbor?")
-  
-if /else statement? 
+  for (var i=0; numberArr.length ; i ++){
+    if (n===13 || n ===32){
+      console.log ("Won't you be my neighbor?")
+    } else if (n===21 ) {
+      console.log ( "Boop")
+    } else { 
+    let number1= (numberArr.toString().replace(/1/g, " Beep "));
+    let number2= (number1.toString().replace(/2/g, " Boop "));
+    let number3= (number2.toString().replace(/3/g, " Won't you be my neighbor "));
+    console.log (number3);
+  }
 
+}
 
 //   Business Logic 
 
 // $(document).ready(function(){
-//   $("#id from form").submit(function(event){
+//   $("#form_survey").submit(function(event){
 //     event.preventDefault();
-       let  n = ("#userInput").val ()
-//     $("#result").text(convert(userinput));
-//     $("#result").show();
+       let  n = ("#input").val ()
+//     $("#conversion").text(convert(input));
+//     $("#conversion").show();
 //   });
 // });
-
-
-
-
-
