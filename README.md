@@ -10,7 +10,6 @@
 * CSS 
 * HTML 
 * jQuery
-* JavaScript
 * Bootstrap
 
 ## Description
@@ -32,9 +31,9 @@ _Test: "It should place number sequentially to the number inputted, starting fro
 _Code: const n=5; 
 _Expected Output: [0, 1, 2, 3, 4, 5]
 
-_Test: "###" 
-_Code:  
-_Expected Output: 2
+_Test: "It should replace 1 with "Beep" "
+_Code:  const n=1 
+_Expected Output: "Beep" 
 
 
 ## License
