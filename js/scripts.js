@@ -1,7 +1,6 @@
 //Functional Logic 
 function conversion(n){
-  const n=33
-  const numberArr= [ ...Array (n+1).keys()].slice (0);   
+  const numberArr= [...Array (n+1).keys()].slice (0);   
   var numberString =numberArr.toString(); 
   var newNumberString = numberString
     .replace (13, "Won't you be my neighbor")
@@ -10,16 +9,30 @@ function conversion(n){
     .replace (/1/g, " Beep ")
     .replace(/2/g, "Boop ")
     .replace (/3/g, "Won't you be my neighbor?")
-  console.log(newNumberString); 
+
+  return (newNumberString); 
 }
 
 //   Business Logic 
 
  $(document).ready(function(){
- $("#form_survey").submit(function(event){
+ $("#form-group").submit(function(event){
    event.preventDefault();
-   let  n = ("#input").val ()
-   $("#conversion").text(convert(n));
-   $("#conversion").show();
+  let  n = $("#input").val (); 
+    console.log (n);
+
+    newNumberString .sort(); 
+   newNumberString.forEach (function(element){
+    $("#output").text(convert(n));
+    $("form#item-form").addClass("hidden");
+   })
+   $("#output").show();
   });
 });
+
+
+
+
+
+    
+  
