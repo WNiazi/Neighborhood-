@@ -1,6 +1,9 @@
 //Functional Logic 
-function conversion(n){
+function conversion(){
+  const number =4; 
+  const n =parseInt(number);
   const numberArr= [...Array (n+1).keys()].slice (0);   
+  console.log (numberArr); 
   var numberString =numberArr.toString(); 
   var newNumberString = numberString
     .replace (13, "Won't you be my neighbor")
@@ -10,29 +13,19 @@ function conversion(n){
     .replace(/2/g, "Boop ")
     .replace (/3/g, "Won't you be my neighbor?")
 
-  return (newNumberString); 
+  console.log (newNumberString); 
 }
 
-//   Business Logic 
+//   User Logic 
 
- $(document).ready(function(){
- $("#form-group").submit(function(event){
+$(document).ready(function(){
+ $("#formOne").submit(function(event){
    event.preventDefault();
-  let  n = $("#input").val (); 
-    console.log (n);
+  let number = $("input#input").val (); 
 
-    newNumberString .sort(); 
-   newNumberString.forEach (function(element){
-    $("#output").text(convert(n));
-    $("form#item-form").addClass("hidden");
-   })
-   $("#output").show();
+  $("#output").text(conversion(number));
+  $("#output").show(); 
+
+  //("#output").html(result)
   });
 });
-
-
-
-
-
-    
-  
