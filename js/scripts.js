@@ -1,9 +1,7 @@
 //Functional Logic 
-function conversion(){
-  const number =4; 
+function conversion(number){
   const n =parseInt(number);
-  const numberArr= [...Array (n+1).keys()].slice (0);   
-  console.log (numberArr); 
+  const numberArr= [...Array (n+1).keys()].slice (0); 
   var numberString =numberArr.toString(); 
   var newNumberString = numberString
     .replace (13, "Won't you be my neighbor")
@@ -13,19 +11,17 @@ function conversion(){
     .replace(/2/g, "Boop ")
     .replace (/3/g, "Won't you be my neighbor?")
 
-  console.log (newNumberString); 
+  return (newNumberString); 
 }
 
-//   User Logic 
+//   Business Logic 
 
 $(document).ready(function(){
  $("#formOne").submit(function(event){
    event.preventDefault();
-  let number = $("input#input").val (); 
-
-  $("#output").text(conversion(number));
-  $("#output").show(); 
-
-  //("#output").html(result)
+   const number = $("input#input").val(); 
+   
+   $("#output").text(conversion(number));
+   $("#output").show(); 
   });
 });
