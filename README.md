@@ -39,9 +39,14 @@ _Test: "It should provide all the variation with one string."
 _Code:  let variable = variable(toString (). replace (changes, replaced item)). 
 _Expected Output: With changes 
 
-_Test: "It should run the exception first prior the other changes, ie., 1/2/3 to Beep/Boop/Won't you be my neighbor. 
-_Code:  Placed for loop and if/else statement prior  
-_Expected Output: 
+_Test: "It should run the exceptions first prior the other changes, ie., 1/2/3 to Beep/Boop/Won't you be my neighbor. 
+_Code:  Used the replace method to aid 
+_Expected Output: To run the code as written in that order.
+
+_Test: "It should make it easier to read, and less variables" 
+_Code:  removed the toString for each variable /regEx equation
+_Expected Output: Placed it at the beginning 
+
 
  
 
